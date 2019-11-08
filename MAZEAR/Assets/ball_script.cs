@@ -3,13 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ball_script : MonoBehaviour
-
-
-
 {
-
     public GameObject plane;
-    
     public GameObject spawnPoint;
 
     // Start is called before the first frame update
