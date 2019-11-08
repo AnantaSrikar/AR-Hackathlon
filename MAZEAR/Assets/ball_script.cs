@@ -2,10 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class ball_script : MonoBehaviour
 {
-    public GameObject plane;
-    public GameObject spawnPoint;
+
+    public GameObject Plane;
+    public GameObject SpawnPoint;
+    public Rigidbody Sphere;
 
     // Start is called before the first frame update
     void Start()
@@ -16,11 +19,15 @@ public class ball_script : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y < plane.transform.position.y - 10) {
 
-            transform.position = spawnPoint.transform.position;
-
+        if (transform.position.y < Plane.transform.position.y - 5)
+        {
+            transform.position = SpawnPoint.transform.position;
+            Sphere.velocity = Vector3.zero;
+            Sphere.angularVelocity = Vector3.zero;
         }
         
     }
+
+    // If level Completed : rigidbody.Sleep();
 }
