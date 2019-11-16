@@ -1,9 +1,10 @@
 Android
 PlayerPath?
-D:/AR Hackathon/MAZEAR/Android_App_v_final.apk
+D:/AR Hackathon/MAZEAR/Android_App_v_final1.apk
 SceneListBegin?
 Assets/Scenes/StartGame.unity
 Assets/Scenes/SampleScene.unity
+Assets/Scenes/GameOverScene.unity
 SceneListEnd?
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.BoundingBoxRenderer
 3c08375166df118bd1801438fc36b92f Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
@@ -188,7 +189,7 @@ fe10de86e42ce80dc24cf76ac1c87c2a Vuforia.UnityExtensions.dll:Vuforia.VuforiaConf
 fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
-ec7ecee1bc508fe58d1b328869cc8c12 Assembly-CSharp.dll:.ball_script
+ac818ffafd2a18fa9fd09b8ca56c112d Assembly-CSharp.dll:.ball_script
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer

@@ -9,6 +9,7 @@ public class ball_script : MonoBehaviour
     public GameObject Plane;
     public GameObject SpawnPoint;
     public Rigidbody Sphere;
+    public string sceneName;
     
 
     // Start is called before the first frame update
@@ -26,8 +27,15 @@ public class ball_script : MonoBehaviour
             transform.position = SpawnPoint.transform.position;
             Sphere.velocity = Vector3.zero;
             Sphere.angularVelocity = Vector3.zero;
+            LoadLevel(sceneName);
+
         }
        
+    }
+
+    public void LoadLevel(string sceneName)
+    {
+        Application.LoadLevel(sceneName);
     }
 
     // If level Completed : rigidbody.Sleep();
