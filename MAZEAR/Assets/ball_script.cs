@@ -27,7 +27,7 @@ public class ball_script : MonoBehaviour
             transform.position = SpawnPoint.transform.position;
             Sphere.velocity = Vector3.zero;
             Sphere.angularVelocity = Vector3.zero;
-            LoadLevel(sceneName);
+            //LoadLevel(sceneName); Fix the bug here.... it automatically goes to the next scene without game over
 
         }
        
